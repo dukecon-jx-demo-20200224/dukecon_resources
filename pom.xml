@@ -253,7 +253,7 @@
                         <configuration>
                             <mergers>
                                 <merger>
-                                    <target>${project.build.outputDirectory}/conferences-ijug+doag.yml</target>
+                                    <target>${project.build.outputDirectory}/conferences-ijug-and-doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
@@ -275,7 +275,7 @@
                                     </sources>
                                 </merger>
                                 <merger>
-                                    <target>${project.build.outputDirectory}/conferences-javaland+doag.yml</target>
+                                    <target>${project.build.outputDirectory}/conferences-javaland-and-doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
