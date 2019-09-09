@@ -68,7 +68,7 @@
         <lombok.version>1.18.2</lombok.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
-        <merge-maven-plugin.version>1.2.0</merge-maven-plugin.version>
+        <merge-maven-plugin.version>0.0.3</merge-maven-plugin.version>
         <slf4j-simple.version>1.7.25</slf4j-simple.version>
         <snakeyaml.version>1.25</snakeyaml.version>
 
@@ -200,7 +200,7 @@
                     </executions>
                 </plugin>
                 <plugin>
-                    <groupId>com.bekioui.maven.plugin</groupId>
+                    <groupId>org.zcore.maven</groupId>
                     <artifactId>merge-maven-plugin</artifactId>
                     <version>${merge-maven-plugin.version}</version>
                 </plugin>
@@ -241,7 +241,7 @@
                 <version>${groovy-eclipse-compiler.version}</version>
             </plugin>
             <plugin>
-                <groupId>com.bekioui.maven.plugin</groupId>
+                <groupId>org.zcore.maven</groupId>
                 <artifactId>merge-maven-plugin</artifactId>
                 <executions>
                     <execution>
@@ -259,7 +259,6 @@
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-javaland.yml</target>
@@ -267,7 +266,6 @@
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-doag.yml</target>
@@ -275,7 +273,6 @@
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-javaland+doag.yml</target>
@@ -284,7 +281,6 @@
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-stable.yml</target>
@@ -293,7 +289,6 @@
                                         <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences.yml</target>
@@ -303,7 +298,6 @@
                                         <source>src/main/conference-fragments/conferences-doag.yml</source>
                                         <source>src/main/conference-fragments/conferences-apachecon-sched.yml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences.yaml</target>
@@ -311,7 +305,6 @@
                                         <source>src/main/conference-fragments/conferences-header.yaml</source>
                                         <source>src/main/conference-fragments/conferences-javaland.yaml</source>
                                     </sources>
-                                    <rewriteNewlines>\n</rewriteNewlines>
                                 </merger>
                             </mergers>
                         </configuration>
@@ -344,7 +337,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -362,7 +355,6 @@
                                                 <source>src/main/conference-fragments/conferences-javaland.yml</source>
                                                 <source>src/main/conference-fragments/conferences-doag.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
@@ -383,7 +375,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -400,7 +392,6 @@
                                                 <source>src/main/conference-fragments/conferences-header.yml</source>
                                                 <source>src/main/conference-fragments/conferences-apachecon-NONPUBLIC.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
@@ -415,7 +406,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -431,7 +422,6 @@
                                             <sources>
                                                 <source>${project.build.outputDirectory}/conferences.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
@@ -446,7 +436,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -462,7 +452,6 @@
                                             <sources>
                                                 <source>${project.build.outputDirectory}/conferences.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
@@ -477,7 +466,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -493,7 +482,6 @@
                                             <sources>
                                                 <source>${project.build.outputDirectory}/conferences.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
@@ -508,7 +496,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>com.bekioui.maven.plugin</groupId>
+                        <groupId>org.zcore.maven</groupId>
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
@@ -524,7 +512,6 @@
                                             <sources>
                                                 <source>${project.build.outputDirectory}/conferences.yml</source>
                                             </sources>
-                                            <rewriteNewlines>\n</rewriteNewlines>
                                         </merger>
                                     </mergers>
                                 </configuration>
