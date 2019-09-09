@@ -57,6 +57,7 @@ pipeline {
         container('maven') {
           dir('charts/dukecon-resources') {
             sh "ln -s ../../target/classes"
+            sh "perl -p -i.bak -e 's|\\r||g' classes/*.y*l"
             sh "jx step changelog --version v\$(cat ../../VERSION)"
 
             // release the helm chart
