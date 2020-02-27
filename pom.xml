@@ -256,46 +256,86 @@
                                     <target>${project.build.outputDirectory}/conferences-ijug-and-doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
-                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-javaland.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-javaland-and-doag.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
-                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences-stable.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
-                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                     </sources>
                                 </merger>
                                 <merger>
                                     <target>${project.build.outputDirectory}/conferences.yml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yml</source>
-                                        <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                         <source>src/main/conference-fragments/conferences-apachecon-sched.yml</source>
                                     </sources>
                                 </merger>
@@ -303,7 +343,12 @@
                                     <target>${project.build.outputDirectory}/conferences.yaml</target>
                                     <sources>
                                         <source>src/main/conference-fragments/conferences-header.yaml</source>
-                                        <source>src/main/conference-fragments/conferences-javaland.yaml</source>
+                                        <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                        <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                        <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                        <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
                                     </sources>
                                 </merger>
                             </mergers>
@@ -316,18 +361,7 @@
 
     <profiles>
         <profile>
-            <id>doc</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.asciidoctor</groupId>
-                        <artifactId>asciidoctor-maven-plugin</artifactId>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>generate-all-nonpublic</id>
+            <id>generate-current-ijug+doag</id>
             <activation>
                 <property>
                     <name>env.HOSTNAME</name>
@@ -341,7 +375,7 @@
                         <artifactId>merge-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>merge-all-nonpublic</id>
+                                <id>merge-current-ijug+doag</id>
                                 <phase>process-resources</phase>
                                 <goals>
                                     <goal>merge</goal>
@@ -352,8 +386,49 @@
                                             <target>${project.build.outputDirectory}/conferences.yml</target>
                                             <sources>
                                                 <source>src/main/conference-fragments/conferences-header.yml</source>
-                                                <source>src/main/conference-fragments/conferences-javaland.yml</source>
-                                                <source>src/main/conference-fragments/conferences-doag.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
+                                            </sources>
+                                        </merger>
+                                    </mergers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>generate-all-public</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.zcore.maven</groupId>
+                        <artifactId>merge-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>merge-all-public</id>
+                                <phase>process-resources</phase>
+                                <goals>
+                                    <goal>merge</goal>
+                                </goals>
+                                <configuration>
+                                    <mergers>
+                                        <merger>
+                                            <target>${project.build.outputDirectory}/conferences.yml</target>
+                                            <sources>
+                                                <source>src/main/conference-fragments/conferences-header.yml</source>
+                                                <!-- Re-integrate Javaland 2016 when implementing https://github.com/dukecon/dukecon_resources/issues/4 -->
+                                                <!-- <source>src/main/conference-fragments/conferences-javaland-2016.yml</source> -->
+                                                <source>src/main/conference-fragments/conferences-javaland-2017.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2018.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2019.yml</source>
+                                                <source>src/main/conference-fragments/conferences-javaland-2020.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2016.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2017.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2018.yml</source>
+                                                <source>src/main/conference-fragments/conferences-doag-2019.yml</source>
                                             </sources>
                                         </merger>
                                     </mergers>
